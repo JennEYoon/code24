@@ -1,4 +1,4 @@
-# code24 repo  
+# code24  
 
 Creation date: Dec 9, 2023  
 Description: Short code snippets testing and coding practice repo.  

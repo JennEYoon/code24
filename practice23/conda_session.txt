@@ -1,0 +1,975 @@
+     |????????????????????????????????| 65 kB 4.5 MB/s
+Collecting grpcio~=1.34.0
+  Downloading grpcio-1.34.1-cp39-cp39-win_amd64.whl (2.9 MB)
+     |????????????????????????????????| 2.9 MB 6.4 MB/s
+Collecting keras-nightly~=2.5.0.dev
+  Downloading keras_nightly-2.5.0.dev2021032900-py2.py3-none-any.whl (1.2 MB)
+     |????????????????????????????????| 1.2 MB ...
+Collecting numpy~=1.19.2
+  Downloading numpy-1.19.5-cp39-cp39-win_amd64.whl (13.3 MB)
+     |????????????????????????????????| 13.3 MB ...
+Collecting tensorflow-estimator<2.6.0,>=2.5.0rc0
+  Downloading tensorflow_estimator-2.5.0-py2.py3-none-any.whl (462 kB)
+     |????????????????????????????????| 462 kB 6.8 MB/s
+Requirement already satisfied: setuptools>=41.0.0 in .\lib\site-packages (from tensorboard~=2.5->tensorflow) (51.0.0.post20201207)
+Collecting markdown>=2.6.8
+  Downloading Markdown-3.3.4-py3-none-any.whl (97 kB)
+     |????????????????????????????????| 97 kB 3.4 MB/s
+Requirement already satisfied: requests<3,>=2.21.0 in .\lib\site-packages (from tensorboard~=2.5->tensorflow) (2.25.0)
+Collecting werkzeug>=0.11.15
+  Downloading Werkzeug-2.0.1-py3-none-any.whl (288 kB)
+     |????????????????????????????????| 288 kB ...
+Collecting tensorboard-data-server<0.7.0,>=0.6.0
+  Downloading tensorboard_data_server-0.6.1-py3-none-any.whl (2.4 kB)
+Collecting tensorboard-plugin-wit>=1.6.0
+  Downloading tensorboard_plugin_wit-1.8.0-py3-none-any.whl (781 kB)
+     |????????????????????????????????| 781 kB ...
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Downloading google_auth_oauthlib-0.4.4-py2.py3-none-any.whl (18 kB)
+Collecting google-auth<2,>=1.6.3
+  Downloading google_auth-1.32.1-py2.py3-none-any.whl (147 kB)
+     |????????????????????????????????| 147 kB 6.4 MB/s
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+     |????????????????????????????????| 155 kB ...
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.7.2-py3-none-any.whl (34 kB)
+Collecting cachetools<5.0,>=2.0.0
+  Downloading cachetools-4.2.2-py3-none-any.whl (11 kB)
+Collecting requests-oauthlib>=0.7.0
+  Downloading requests_oauthlib-1.3.0-py2.py3-none-any.whl (23 kB)
+Collecting pyasn1<0.5.0,>=0.4.6
+  Downloading pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+     |????????????????????????????????| 77 kB 2.7 MB/s
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in .\lib\site-packages (from requests<3,>=2.21.0->tensorboard~=2.5->tensorflow) (1.25.11)
+Requirement already satisfied: idna<3,>=2.5 in .\lib\site-packages (from requests<3,>=2.21.0->tensorboard~=2.5->tensorflow) (2.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in .\lib\site-packages (from requests<3,>=2.21.0->tensorboard~=2.5->tensorflow) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in .\lib\site-packages (from requests<3,>=2.21.0->tensorboard~=2.5->tensorflow) (2021.5.30)
+Collecting oauthlib>=3.0.0
+  Downloading oauthlib-3.1.1-py2.py3-none-any.whl (146 kB)
+     |????????????????????????????????| 146 kB ...
+Building wheels for collected packages: termcolor, wrapt
+  Building wheel for termcolor (setup.py) ... done
+  Created wheel for termcolor: filename=termcolor-1.1.0-py3-none-any.whl size=4832 sha256=e23f735f4103b33c097b335af2e14c51dfdfeea6f0eb4443ba6ccb93e51ba7d2
+  Stored in directory: c:\users\jyoon\appdata\local\pip\cache\wheels\b6\0d\90\0d1bbd99855f99cb2f6c2e5ff96f8023fad8ec367695f7d72d
+  Building wheel for wrapt (setup.py) ... done
+  Created wheel for wrapt: filename=wrapt-1.12.1-py3-none-any.whl size=19552 sha256=8ff1d71a2784c510fa82b55934c71d6006c6cfb89a98d726cdb587f8e6626d9d
+  Stored in directory: c:\users\jyoon\appdata\local\pip\cache\wheels\98\23\68\efe259aaca055e93b08e74fbe512819c69a2155c11ba3c0f10
+Successfully built termcolor wrapt
+Installing collected packages: pyasn1, rsa, pyasn1-modules, oauthlib, cachetools, requests-oauthlib, google-auth, werkzeug, tensorboard-plugin-wit, tensorboard-data-server, protobuf, numpy, markdown, grpcio, google-auth-oauthlib, absl-py, wrapt, typing-extensions, termcolor, tensorflow-estimator, tensorboard, opt-einsum, keras-preprocessing, keras-nightly, h5py, google-pasta, gast, flatbuffers, astunparse, tensorflow
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.0
+    Uninstalling numpy-1.21.0:
+      Successfully uninstalled numpy-1.21.0
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing-extensions 3.10.0.0
+    Uninstalling typing-extensions-3.10.0.0:
+      Successfully uninstalled typing-extensions-3.10.0.0
+Successfully installed absl-py-0.13.0 astunparse-1.6.3 cachetools-4.2.2 flatbuffers-1.12 gast-0.4.0 google-auth-1.32.1 google-auth-oauthlib-0.4.4 google-pasta-0.2.0 grpcio-1.34.1 h5py-3.1.0 keras-nightly-2.5.0.dev2021032900 keras-preprocessing-1.1.2 markdown-3.3.4 numpy-1.19.5 oauthlib-3.1.1 opt-einsum-3.3.0 protobuf-3.17.3 pyasn1-0.4.8 pyasn1-modules-0.2.8 requests-oauthlib-1.3.0 rsa-4.7.2 tensorboard-2.5.0 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.0 tensorflow-2.5.0 tensorflow-estimator-2.5.0 termcolor-1.1.0 typing-extensions-3.7.4.3 werkzeug-2.0.1 wrapt-1.12.1
+
+(base) c:\python\conda3>conda install scikit-image
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\python\conda3
+
+  added / updated specs:
+    - scikit-image
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    appdirs-1.4.4              |     pyh9f0ad1d_0          13 KB  conda-forge
+    blosc-1.21.0               |       h0e60522_0         688 KB  conda-forge
+    brotli-1.0.9               |       h8ffe710_5          18 KB  conda-forge
+    brotli-bin-1.0.9           |       h8ffe710_5          20 KB  conda-forge
+    bzip2-1.0.8                |       h8ffe710_4         149 KB  conda-forge
+    cfitsio-3.470              |       h0af3d06_7         596 KB  conda-forge
+    charls-2.2.0               |       h39d44d4_0          93 KB  conda-forge
+    cloudpickle-1.6.0          |             py_0          22 KB  conda-forge
+    cytoolz-0.11.0             |   py39hb82d6ee_3         342 KB  conda-forge
+    dask-core-2021.6.2         |     pyhd8ed1ab_0         743 KB  conda-forge
+    fsspec-2021.6.1            |     pyhd8ed1ab_0          79 KB  conda-forge
+    giflib-5.2.1               |       h8d14728_2          85 KB  conda-forge
+    imagecodecs-2021.6.8       |   py39h166567b_0         6.7 MB  conda-forge
+    imageio-2.9.0              |             py_0         3.1 MB  conda-forge
+    jxrlib-1.1                 |       h8ffe710_2         620 KB  conda-forge
+    libaec-1.0.5               |       h39d44d4_0          60 KB  conda-forge
+    libbrotlicommon-1.0.9      |       h8ffe710_5          66 KB  conda-forge
+    libbrotlidec-1.0.9         |       h8ffe710_5          33 KB  conda-forge
+    libbrotlienc-1.0.9         |       h8ffe710_5         723 KB  conda-forge
+    libwebp-base-1.2.0         |       h8ffe710_2         389 KB  conda-forge
+    libzopfli-1.0.3            |       h0e60522_0         203 KB  conda-forge
+    locket-0.2.0               |             py_2           6 KB  conda-forge
+    networkx-2.3               |             py_0         1.1 MB  conda-forge
+    partd-1.2.0                |     pyhd8ed1ab_0          18 KB  conda-forge
+    pooch-1.4.0                |     pyhd8ed1ab_0          41 KB  conda-forge
+    pywavelets-1.1.1           |   py39h5d4886f_3         4.2 MB  conda-forge
+    pyyaml-5.4.1               |   py39hb82d6ee_0         159 KB  conda-forge
+    scikit-image-0.18.1        |   py39h2e25243_0        10.7 MB  conda-forge
+    snappy-1.1.8               |       ha925a31_3          50 KB  conda-forge
+    tifffile-2021.7.2          |     pyhd8ed1ab_0         133 KB  conda-forge
+    toolz-0.11.1               |             py_0          46 KB  conda-forge
+    zfp-0.5.5                  |       h0e60522_5         160 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        31.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  appdirs            conda-forge/noarch::appdirs-1.4.4-pyh9f0ad1d_0
+  blosc              conda-forge/win-64::blosc-1.21.0-h0e60522_0
+  brotli             conda-forge/win-64::brotli-1.0.9-h8ffe710_5
+  brotli-bin         conda-forge/win-64::brotli-bin-1.0.9-h8ffe710_5
+  bzip2              conda-forge/win-64::bzip2-1.0.8-h8ffe710_4
+  cfitsio            conda-forge/win-64::cfitsio-3.470-h0af3d06_7
+  charls             conda-forge/win-64::charls-2.2.0-h39d44d4_0
+  cloudpickle        conda-forge/noarch::cloudpickle-1.6.0-py_0
+  cytoolz            conda-forge/win-64::cytoolz-0.11.0-py39hb82d6ee_3
+  dask-core          conda-forge/noarch::dask-core-2021.6.2-pyhd8ed1ab_0
+  fsspec             conda-forge/noarch::fsspec-2021.6.1-pyhd8ed1ab_0
+  giflib             conda-forge/win-64::giflib-5.2.1-h8d14728_2
+  imagecodecs        conda-forge/win-64::imagecodecs-2021.6.8-py39h166567b_0
+  imageio            conda-forge/noarch::imageio-2.9.0-py_0
+  jxrlib             conda-forge/win-64::jxrlib-1.1-h8ffe710_2
+  libaec             conda-forge/win-64::libaec-1.0.5-h39d44d4_0
+  libbrotlicommon    conda-forge/win-64::libbrotlicommon-1.0.9-h8ffe710_5
+  libbrotlidec       conda-forge/win-64::libbrotlidec-1.0.9-h8ffe710_5
+  libbrotlienc       conda-forge/win-64::libbrotlienc-1.0.9-h8ffe710_5
+  libwebp-base       conda-forge/win-64::libwebp-base-1.2.0-h8ffe710_2
+  libzopfli          conda-forge/win-64::libzopfli-1.0.3-h0e60522_0
+  locket             conda-forge/noarch::locket-0.2.0-py_2
+  networkx           conda-forge/noarch::networkx-2.3-py_0
+  partd              conda-forge/noarch::partd-1.2.0-pyhd8ed1ab_0
+  pooch              conda-forge/noarch::pooch-1.4.0-pyhd8ed1ab_0
+  pywavelets         conda-forge/win-64::pywavelets-1.1.1-py39h5d4886f_3
+  pyyaml             conda-forge/win-64::pyyaml-5.4.1-py39hb82d6ee_0
+  scikit-image       conda-forge/win-64::scikit-image-0.18.1-py39h2e25243_0
+  snappy             conda-forge/win-64::snappy-1.1.8-ha925a31_3
+  tifffile           conda-forge/noarch::tifffile-2021.7.2-pyhd8ed1ab_0
+  toolz              conda-forge/noarch::toolz-0.11.1-py_0
+  zfp                conda-forge/win-64::zfp-0.5.5-h0e60522_5
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+cfitsio-3.470        | 596 KB    | ######################################### | 100%
+cloudpickle-1.6.0    | 22 KB     | ######################################### | 100%
+libaec-1.0.5         | 60 KB     | ######################################### | 100%
+libbrotlicommon-1.0. | 66 KB     | ######################################### | 100%
+appdirs-1.4.4        | 13 KB     | ######################################### | 100%
+pywavelets-1.1.1     | 4.2 MB    | ######################################### | 100%
+networkx-2.3         | 1.1 MB    | ######################################### | 100%
+fsspec-2021.6.1      | 79 KB     | ######################################### | 100%
+libbrotlienc-1.0.9   | 723 KB    | ######################################### | 100%
+zfp-0.5.5            | 160 KB    | ######################################### | 100%
+cytoolz-0.11.0       | 342 KB    | ######################################### | 100%
+blosc-1.21.0         | 688 KB    | ######################################### | 100%
+imagecodecs-2021.6.8 | 6.7 MB    | ######################################### | 100%
+partd-1.2.0          | 18 KB     | ######################################### | 100%
+brotli-1.0.9         | 18 KB     | ######################################### | 100%
+pooch-1.4.0          | 41 KB     | ######################################### | 100%
+charls-2.2.0         | 93 KB     | ######################################### | 100%
+toolz-0.11.1         | 46 KB     | ######################################### | 100%
+tifffile-2021.7.2    | 133 KB    | ######################################### | 100%
+libwebp-base-1.2.0   | 389 KB    | ######################################### | 100%
+bzip2-1.0.8          | 149 KB    | ######################################### | 100%
+giflib-5.2.1         | 85 KB     | ######################################### | 100%
+brotli-bin-1.0.9     | 20 KB     | ######################################### | 100%
+snappy-1.1.8         | 50 KB     | ######################################### | 100%
+libbrotlidec-1.0.9   | 33 KB     | ######################################### | 100%
+jxrlib-1.1           | 620 KB    | ######################################### | 100%
+imageio-2.9.0        | 3.1 MB    | ######################################### | 100%
+scikit-image-0.18.1  | 10.7 MB   | ######################################### | 100%
+libzopfli-1.0.3      | 203 KB    | ######################################### | 100%
+pyyaml-5.4.1         | 159 KB    | ######################################### | 100%
+dask-core-2021.6.2   | 743 KB    | ######################################### | 100%
+locket-0.2.0         | 6 KB      | ######################################### | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) c:\python\conda3>conda list
+# packages in environment at C:\python\conda3:
+#
+# Name                    Version                   Build  Channel
+absl-py                   0.13.0                   pypi_0    pypi
+anyio                     2.2.0            py39hcbf5309_0    conda-forge
+appdirs                   1.4.4              pyh9f0ad1d_0    conda-forge
+argon2-cffi               20.1.0           py39hb82d6ee_2    conda-forge
+astunparse                1.6.3                    pypi_0    pypi
+async_generator           1.10                       py_0    conda-forge
+attrs                     21.2.0             pyhd8ed1ab_0    conda-forge
+babel                     2.9.1              pyh44b312d_0    conda-forge
+backcall                  0.2.0              pyh9f0ad1d_0    conda-forge
+backports                 1.0                        py_2    conda-forge
+backports.functools_lru_cache 1.6.4              pyhd8ed1ab_0    conda-forge
+blas                      1.0                         mkl
+bleach                    3.3.0              pyh44b312d_0    conda-forge
+blosc                     1.21.0               h0e60522_0    conda-forge
+brotli                    1.0.9                h8ffe710_5    conda-forge
+brotli-bin                1.0.9                h8ffe710_5    conda-forge
+brotlipy                  0.7.0           py39h2bbff1b_1003
+bzip2                     1.0.8                h8ffe710_4    conda-forge
+ca-certificates           2021.5.30            h5b45459_0    conda-forge
+cachetools                4.2.2                    pypi_0    pypi
+certifi                   2021.5.30        py39hcbf5309_0    conda-forge
+cffi                      1.14.4           py39hcd4344a_0
+cfitsio                   3.470                h0af3d06_7    conda-forge
+chardet                   3.0.4           py39haa95532_1003
+charls                    2.2.0                h39d44d4_0    conda-forge
+cloudpickle               1.6.0                      py_0    conda-forge
+colorama                  0.4.4              pyh9f0ad1d_0    conda-forge
+conda                     4.10.3           py39hcbf5309_0    conda-forge
+conda-package-handling    1.7.2            py39h8cc25b3_1
+console_shortcut          0.1.1                         4
+cpuonly                   1.0                           0    pytorch
+cryptography              3.3.1            py39hcd4344a_0
+cycler                    0.10.0                     py_2    conda-forge
+cytoolz                   0.11.0           py39hb82d6ee_3    conda-forge
+dask-core                 2021.6.2           pyhd8ed1ab_0    conda-forge
+debugpy                   1.3.0            py39h415ef7b_0    conda-forge
+decorator                 5.0.9              pyhd8ed1ab_0    conda-forge
+defusedxml                0.7.1              pyhd8ed1ab_0    conda-forge
+entrypoints               0.3             pyhd8ed1ab_1003    conda-forge
+flatbuffers               1.12                     pypi_0    pypi
+freetype                  2.10.4               h546665d_1    conda-forge
+fsspec                    2021.6.1           pyhd8ed1ab_0    conda-forge
+gast                      0.4.0                    pypi_0    pypi
+giflib                    5.2.1                h8d14728_2    conda-forge
+google-auth               1.32.1                   pypi_0    pypi
+google-auth-oauthlib      0.4.4                    pypi_0    pypi
+google-pasta              0.2.0                    pypi_0    pypi
+grpcio                    1.34.1                   pypi_0    pypi
+h5py                      3.1.0                    pypi_0    pypi
+icu                       67.1                 h33f27b4_0    conda-forge
+idna                      2.10                       py_0
+imagecodecs               2021.6.8         py39h166567b_0    conda-forge
+imageio                   2.9.0                      py_0    conda-forge
+importlib-metadata        4.6.0            py39hcbf5309_0    conda-forge
+intel-openmp              2021.3.0          h57928b3_3372    conda-forge
+ipykernel                 6.0.1            py39h832f523_0    conda-forge
+ipython                   7.25.0           py39h832f523_1    conda-forge
+ipython_genutils          0.2.0                      py_1    conda-forge
+jbig                      2.1               h8d14728_2003    conda-forge
+jedi                      0.18.0           py39hcbf5309_2    conda-forge
+jinja2                    3.0.1              pyhd8ed1ab_0    conda-forge
+joblib                    1.0.1              pyhd8ed1ab_0    conda-forge
+jpeg                      9d                   h8ffe710_0    conda-forge
+json5                     0.9.5              pyh9f0ad1d_0    conda-forge
+jsonschema                3.2.0              pyhd8ed1ab_3    conda-forge
+jupyter_client            6.1.12             pyhd8ed1ab_0    conda-forge
+jupyter_core              4.7.1            py39hcbf5309_0    conda-forge
+jupyter_server            1.4.1            py39haa95532_0
+jupyterlab                3.0.16             pyhd8ed1ab_0    conda-forge
+jupyterlab_pygments       0.1.2              pyh9f0ad1d_0    conda-forge
+jupyterlab_server         2.6.0              pyhd8ed1ab_0    conda-forge
+jxrlib                    1.1                  h8ffe710_2    conda-forge
+keras-nightly             2.5.0.dev2021032900          pypi_0    pypi
+keras-preprocessing       1.1.2                    pypi_0    pypi
+kiwisolver                1.3.1            py39h2e07f2f_1    conda-forge
+lcms2                     2.12                 h2a16943_0    conda-forge
+lerc                      2.2.1                h0e60522_0    conda-forge
+libaec                    1.0.5                h39d44d4_0    conda-forge
+libblas                   3.9.0                     9_mkl    conda-forge
+libbrotlicommon           1.0.9                h8ffe710_5    conda-forge
+libbrotlidec              1.0.9                h8ffe710_5    conda-forge
+libbrotlienc              1.0.9                h8ffe710_5    conda-forge
+libcblas                  3.9.0                     9_mkl    conda-forge
+libclang                  10.0.1          default_hf44288c_1    conda-forge
+libdeflate                1.7                  h8ffe710_5    conda-forge
+liblapack                 3.9.0                     9_mkl    conda-forge
+libpng                    1.6.37               h1d00b33_2    conda-forge
+libsodium                 1.0.18               h8d14728_1    conda-forge
+libtiff                   4.3.0                h0c97f57_1    conda-forge
+libuv                     1.41.0               h8ffe710_0    conda-forge
+libwebp-base              1.2.0                h8ffe710_2    conda-forge
+libzopfli                 1.0.3                h0e60522_0    conda-forge
+locket                    0.2.0                      py_2    conda-forge
+lz4-c                     1.9.3                h8ffe710_0    conda-forge
+m2w64-gcc-libgfortran     5.3.0                         6    conda-forge
+m2w64-gcc-libs            5.3.0                         7    conda-forge
+m2w64-gcc-libs-core       5.3.0                         7    conda-forge
+m2w64-gmp                 6.1.0                         2    conda-forge
+m2w64-libwinpthread-git   5.0.0.4634.697f757               2    conda-forge
+markdown                  3.3.4                    pypi_0    pypi
+markupsafe                2.0.1            py39hb82d6ee_0    conda-forge
+matplotlib                3.4.2            py39hcbf5309_0    conda-forge
+matplotlib-base           3.4.2            py39h581301d_0    conda-forge
+matplotlib-inline         0.1.2              pyhd8ed1ab_2    conda-forge
+menuinst                  1.4.16           py39h2bbff1b_0
+mistune                   0.8.4           py39hb82d6ee_1004    conda-forge
+mkl                       2021.2.0           hb70f87d_389    conda-forge
+msys2-conda-epoch         20160418                      1    conda-forge
+nbclassic                 0.2.6              pyhd3eb1b0_0
+nbclient                  0.5.3              pyhd8ed1ab_0    conda-forge
+nbconvert                 6.1.0            py39hcbf5309_0    conda-forge
+nbformat                  5.1.3              pyhd8ed1ab_0    conda-forge
+nest-asyncio              1.5.1              pyhd8ed1ab_0    conda-forge
+networkx                  2.3                        py_0    conda-forge
+ninja                     1.10.2               h5362a0b_0    conda-forge
+notebook                  6.4.0              pyha770c72_0    conda-forge
+numpy                     1.19.5                   pypi_0    pypi
+oauthlib                  3.1.1                    pypi_0    pypi
+olefile                   0.46               pyh9f0ad1d_1    conda-forge
+openjpeg                  2.4.0                hb211442_1    conda-forge
+openssl                   1.1.1k               h8ffe710_0    conda-forge
+opt-einsum                3.3.0                    pypi_0    pypi
+packaging                 21.0               pyhd8ed1ab_0    conda-forge
+pandas                    1.3.0            py39h2e25243_0    conda-forge
+pandoc                    2.14.0.3             h8ffe710_0    conda-forge
+pandocfilters             1.4.2                      py_1    conda-forge
+parso                     0.8.2              pyhd8ed1ab_0    conda-forge
+partd                     1.2.0              pyhd8ed1ab_0    conda-forge
+pickleshare               0.7.5                   py_1003    conda-forge
+pillow                    8.3.0            py39h916092e_0    conda-forge
+pip                       21.1.3                   pypi_0    pypi
+pooch                     1.4.0              pyhd8ed1ab_0    conda-forge
+powershell_shortcut       0.0.1                         3
+prometheus_client         0.11.0             pyhd8ed1ab_0    conda-forge
+prompt-toolkit            3.0.19             pyha770c72_0    conda-forge
+protobuf                  3.17.3                   pypi_0    pypi
+pyasn1                    0.4.8                    pypi_0    pypi
+pyasn1-modules            0.2.8                    pypi_0    pypi
+pycosat                   0.6.3            py39h2bbff1b_0
+pycparser                 2.20                       py_2
+pygments                  2.9.0              pyhd8ed1ab_0    conda-forge
+pyopenssl                 20.0.0             pyhd3eb1b0_1
+pyparsing                 2.4.7              pyh9f0ad1d_0    conda-forge
+pyqt                      5.12.3           py39hcbf5309_7    conda-forge
+pyqt-impl                 5.12.3           py39h415ef7b_7    conda-forge
+pyqt5-sip                 4.19.18          py39h415ef7b_7    conda-forge
+pyqtchart                 5.12             py39h415ef7b_7    conda-forge
+pyqtwebengine             5.12.1           py39h415ef7b_7    conda-forge
+pyrsistent                0.17.3           py39hb82d6ee_2    conda-forge
+pysocks                   1.7.1            py39haa95532_0
+python                    3.9.1                h6244533_2
+python-dateutil           2.8.1                      py_0    conda-forge
+python_abi                3.9                      2_cp39    conda-forge
+pytorch                   1.9.0               py3.9_cpu_0  [cpuonly]  pytorch
+pytz                      2021.1             pyhd8ed1ab_0    conda-forge
+pywavelets                1.1.1            py39h5d4886f_3    conda-forge
+pywin32                   228              py39he774522_0
+pywinpty                  0.5.7            py39haa95532_0
+pyyaml                    5.4.1            py39hb82d6ee_0    conda-forge
+pyzmq                     22.1.0           py39he46f08e_0    conda-forge
+qt                        5.12.9               hb2cf2c5_0    conda-forge
+requests                  2.25.0             pyhd3eb1b0_0
+requests-oauthlib         1.3.0                    pypi_0    pypi
+rsa                       4.7.2                    pypi_0    pypi
+ruamel_yaml               0.15.80          py39h2bbff1b_0
+scikit-image              0.18.1           py39h2e25243_0    conda-forge
+scikit-learn              0.24.2           py39he931e04_0    conda-forge
+scipy                     1.7.0            py39hc0c34ad_0    conda-forge
+send2trash                1.7.1              pyhd8ed1ab_0    conda-forge
+setuptools                51.0.0           py39haa95532_2
+six                       1.15.0           py39haa95532_0
+snappy                    1.1.8                ha925a31_3    conda-forge
+sniffio                   1.2.0            py39hcbf5309_1    conda-forge
+sqlite                    3.33.0               h2a8f88b_0
+tbb                       2021.3.0             h2d74725_0    conda-forge
+tensorboard               2.5.0                    pypi_0    pypi
+tensorboard-data-server   0.6.1                    pypi_0    pypi
+tensorboard-plugin-wit    1.8.0                    pypi_0    pypi
+tensorflow                2.5.0                    pypi_0    pypi
+tensorflow-estimator      2.5.0                    pypi_0    pypi
+termcolor                 1.1.0                    pypi_0    pypi
+terminado                 0.9.4            py39haa95532_0
+testpath                  0.5.0              pyhd8ed1ab_0    conda-forge
+threadpoolctl             2.1.0              pyh5ca1d4c_0    conda-forge
+tifffile                  2021.7.2           pyhd8ed1ab_0    conda-forge
+tk                        8.6.10               h8ffe710_1    conda-forge
+toolz                     0.11.1                     py_0    conda-forge
+torchaudio                0.9.0                      py39    pytorch
+torchvision               0.2.2                      py_3    pytorch
+tornado                   6.1              py39hb82d6ee_1    conda-forge
+tqdm                      4.54.1             pyhd3eb1b0_0
+traitlets                 5.0.5                      py_0    conda-forge
+typing-extensions         3.7.4.3                  pypi_0    pypi
+tzdata                    2020d                h14c3975_0
+urllib3                   1.25.11                    py_0
+vc                        14.2                 h21ff451_1
+vs2015_runtime            14.27.29016          h5e58377_2
+wcwidth                   0.2.5              pyh9f0ad1d_2    conda-forge
+webencodings              0.5.1                      py_1    conda-forge
+werkzeug                  2.0.1                    pypi_0    pypi
+wheel                     0.36.1             pyhd3eb1b0_0
+win_inet_pton             1.1.0            py39haa95532_0
+wincertstore              0.2              py39h2bbff1b_0
+winpty                    0.4.3                         4    conda-forge
+wrapt                     1.12.1                   pypi_0    pypi
+xz                        5.2.5                h62dcd97_1    conda-forge
+yaml                      0.2.5                he774522_0
+zeromq                    4.3.4                h0e60522_0    conda-forge
+zfp                       0.5.5                h0e60522_5    conda-forge
+zipp                      3.5.0              pyhd8ed1ab_0    conda-forge
+zlib                      1.2.11               h62dcd97_4
+zstd                      1.5.0                h6255e5f_0    conda-forge
+
+(base) c:\python\conda3>python
+Python 3.9.1 (default, Dec 11 2020, 09:29:25) [MSC v.1916 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+Warning:
+This Python interpreter is in a conda environment, but the environment has
+not been activated.  Libraries may fail to load.  To activate this environment
+please see https://conda.io/activation
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import tensorflow as tf
+2021-07-04 18:20:59.348069: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2021-07-04 18:20:59.349023: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+>>> tf.__version__
+'2.5.0'
+>>> import pytorch
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pytorch'
+>>> import pandas
+>>> pandas.__version__
+'1.3.0'
+>>> import numpy
+>>> numpy.__version__
+'1.19.5'
+>>> import matplotlib
+>>> matplotlib.__version__
+'3.4.2'
+>>> import sklearn
+>>> sklearn.__version__
+'0.24.2'
+>>> import skimage
+>>> skimage.__version__
+'0.18.1'
+>>> import pytorch
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'pytorch'
+>>> import torch
+>>> torch.__version__
+'1.9.0'
+>>> x = torch.rand(5, 3)
+>>> print(x)
+tensor([[0.1186, 0.7075, 0.2514],
+        [0.6658, 0.5293, 0.3661],
+        [0.3173, 0.9019, 0.0296],
+        [0.1823, 0.7564, 0.7556],
+        [0.4757, 0.9795, 0.7359]])
+>>> torch.cuda.is_avilable()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'torch.cuda' has no attribute 'is_avilable'
+>>> torch.cuda.is_available()
+False
+>>> import pandas as pd
+>>> df = pd.DataFrame(data={'state':['Ohio', 'Nevada'], 'pop':[1.5, 2.4], 'year':[2000, 2001]}, columns=['year', 'state', 'pop'], index=['first', 'second', 'third
+  File "<stdin>", line 1
+    df = pd.DataFrame(data={'state':['Ohio', 'Nevada'], 'pop':[1.5, 2.4], 'year':[2000, 2001]}, columns=['year', 'state', 'pop'], index=['first', 'second', 'third
+                                                                                                                                                                  ^
+SyntaxError: EOL while scanning string literal
+>>> df = pd.DataFrame(data={'state':['Ohio', 'Nevada'], 'pop':[1.5, 2.4], 'year':[2000, 2001]}, columns=['year', 'state', 'pop'], index=['first', 'second', 'third'])
+Traceback (most recent call last):
+  File "c:\python\conda3\lib\site-packages\pandas\core\internals\managers.py", line 1767, in create_block_manager_from_arrays
+    mgr = BlockManager(blocks, axes)
+  File "c:\python\conda3\lib\site-packages\pandas\core\internals\managers.py", line 907, in __init__
+    self._verify_integrity()
+  File "c:\python\conda3\lib\site-packages\pandas\core\internals\managers.py", line 914, in _verify_integrity
+    raise construction_error(tot_items, block.shape[1:], self.axes)
+ValueError: Shape of passed values is (2, 3), indices imply (3, 3)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\frame.py", line 614, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+  File "c:\python\conda3\lib\site-packages\pandas\core\internals\construction.py", line 462, in dict_to_mgr
+    return arrays_to_mgr(
+  File "c:\python\conda3\lib\site-packages\pandas\core\internals\construction.py", line 133, in arrays_to_mgr
+    return create_block_manager_from_arrays(
+  File "c:\python\conda3\lib\site-packages\pandas\core\internals\managers.py", line 1769, in create_block_manager_from_arrays
+    raise construction_error(len(arrays), arrays[0].shape, axes, e)
+ValueError: Shape of passed values is (2, 3), indices imply (3, 3)
+>>> df
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'df' is not defined
+>>> df = pd.DataFrame(data={'state':['Ohio', 'Nevada'], 'pop':[1.5, 2.4], 'year':[2000, 2001]}, columns=['year', 'state', 'pop'], index=['first', 'second'])
+>>> df
+        year   state  pop
+first   2000    Ohio  1.5
+second  2001  Nevada  2.4
+>>> df.columns.name
+>>> print(df.columns.name)
+None
+>>> df.columns
+Index(['year', 'state', 'pop'], dtype='object')
+>>> df.name
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 5478, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'name'
+>>> df.index.name
+>>> ser = df[0]
+Traceback (most recent call last):
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\frame.py", line 3455, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexes\base.py", line 3363, in get_loc
+    raise KeyError(key) from err
+KeyError: 0
+>>> ser = pd.Series(df[:, 'state'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\frame.py", line 3455, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 82, in pandas._libs.index.IndexEngine.get_loc
+TypeError: '(slice(None, None, None), 'state')' is an invalid key
+>>> ser = pd.Series(df[:, 1])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\frame.py", line 3455, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexes\base.py", line 3361, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 82, in pandas._libs.index.IndexEngine.get_loc
+TypeError: '(slice(None, None, None), 1)' is an invalid key
+>>> ser = df['state']
+>>> ser
+first       Ohio
+second    Nevada
+Name: state, dtype: object
+>>> ser2 = df.year
+>>> ser2
+first     2000
+second    2001
+Name: year, dtype: int64
+>>> ser.name
+'state'
+>>> ser2.name
+'year'
+>>> ser.index
+Index(['first', 'second'], dtype='object')
+>>> ser2.index
+Index(['first', 'second'], dtype='object')
+>>> df
+        year   state  pop
+first   2000    Ohio  1.5
+second  2001  Nevada  2.4
+>>> debt = pd.Series([50000, 60000])
+>>> debt
+0    50000
+1    60000
+dtype: int64
+>>> df['debt'] = debt
+>>> df
+        year   state  pop  debt
+first   2000    Ohio  1.5   NaN
+second  2001  Nevada  2.4   NaN
+>>> debt2 = [50000, 60000]
+>>> df['debt2']=debt2
+>>> df
+        year   state  pop  debt  debt2
+first   2000    Ohio  1.5   NaN  50000
+second  2001  Nevada  2.4   NaN  60000
+>>> debt.index = ['first', 'second']
+>>> debt
+first     50000
+second    60000
+dtype: int64
+>>> df['debt'] = debt
+>>> df
+        year   state  pop   debt  debt2
+first   2000    Ohio  1.5  50000  50000
+second  2001  Nevada  2.4  60000  60000
+>>> type(debt)
+<class 'pandas.core.series.Series'>
+>>> debt.name
+>>> print(debt.name)
+None
+>>> df.name
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 5478, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'name'
+>>> df.index.name
+>>> debt.name
+>>> debt.index.name
+>>> help(debt)
+Help on Series in module pandas.core.series object:
+
+class Series(pandas.core.base.IndexOpsMixin, pandas.core.generic.NDFrame)
+ |  Series(data=None, index=None, dtype: 'Dtype | None' = None, name=None, copy: 'bool' = False, fastpath: 'bool' = False)
+ |
+ |  One-dimensional ndarray with axis labels (including time series).
+ |
+ |  Labels need not be unique but must be a hashable type. The object
+ |  supports both integer- and label-based indexing and provides a host of
+ |  methods for performing operations involving the index. Statistical
+ |  methods from ndarray have been overridden to automatically exclude
+ |  missing data (currently represented as NaN).
+ |
+ |  Operations between Series (+, -, /, *, **) align values based on their
+ |  associated index values-- they need not be the same length. The result
+ |  index will be the sorted union of the two indexes.
+ |
+ |  Parameters
+ |  ----------
+ |  data : array-like, Iterable, dict, or scalar value
+ |      Contains data stored in Series. If data is a dict, argument order is
+ |      maintained.
+ |  index : array-like or Index (1d)
+ |      Values must be hashable and have the same length as `data`.
+ |      Non-unique index values are allowed. Will default to
+ |      RangeIndex (0, 1, 2, ..., n) if not provided. If data is dict-like
+ |      and index is None, then the keys in the data are used as the index. If the
+ |      index is not None, the resulting Series is reindexed with the index values.
+ |  dtype : str, numpy.dtype, or ExtensionDtype, optional
+ |      Data type for the output Series. If not specified, this will be
+ |      inferred from `data`.
+ |      See the :ref:`user guide <basics.dtypes>` for more usages.
+ |  name : str, optional
+ |      The name to give to the Series.
+ |  copy : bool, default False
+ |      Copy input data. Only affects Series or 1d ndarray input. See examples.
+ |
+ |  Examples
+ |  --------
+ |  Constructing Series from a dictionary with an Index specified
+ |
+^CTraceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\_sitebuiltins.py", line 103, in __call__
+    return pydoc.help(*args, **kwds)
+  File "c:\python\conda3\lib\pydoc.py", line 2001, in __call__
+    self.help(request)
+  File "c:\python\conda3\lib\pydoc.py", line 2060, in help
+    else: doc(request, 'Help on %s:', output=self._output)
+  File "c:\python\conda3\lib\pydoc.py", line 1779, in doc
+    pager(render_doc(thing, title, forceload))
+  File "c:\python\conda3\lib\pydoc.py", line 1554, in pager
+    pager(text)
+  File "c:\python\conda3\lib\pydoc.py", line 1575, in <lambda>
+    return lambda text: tempfilepager(plain(text), 'more <')
+  File "c:\python\conda3\lib\pydoc.py", line 1624, in tempfilepager
+    os.system(cmd + ' "' + filename + '"')
+KeyboardInterrupt
+>>> obj4 = pd.Series(data={'size': 300, 400, 500}, index={'states': 'Ohio', 'Virginia', 'Maryland'})
+  File "<stdin>", line 1
+    obj4 = pd.Series(data={'size': 300, 400, 500}, index={'states': 'Ohio', 'Virginia', 'Maryland'})
+                     ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+>>> obj4 = pd.Series({'size': 300, 400, 500}, index={'states': 'Ohio', 'Virginia', 'Maryland'})
+  File "<stdin>", line 1
+    obj4 = pd.Series({'size': 300, 400, 500}, index={'states': 'Ohio', 'Virginia', 'Maryland'})
+                                      ^
+SyntaxError: invalid syntax
+>>> df
+        year   state  pop   debt  debt2
+first   2000    Ohio  1.5  50000  50000
+second  2001  Nevada  2.4  60000  60000
+>>> df.index.name = "order"
+>>> df
+        year   state  pop   debt  debt2
+order
+first   2000    Ohio  1.5  50000  50000
+second  2001  Nevada  2.4  60000  60000
+>>> df.index.name
+'order'
+>>> df.columns
+Index(['year', 'state', 'pop', 'debt', 'debt2'], dtype='object')
+>>> df.columns.name
+>>> df.columns.name = 'features'
+>>> df
+features  year   state  pop   debt  debt2
+order
+first     2000    Ohio  1.5  50000  50000
+second    2001  Nevada  2.4  60000  60000
+>>> df.columns.name
+'features'
+>>> df.ix['first']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 5478, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'ix'
+>>> debt
+first     50000
+second    60000
+dtype: int64
+>>> debt.ix['first']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 5478, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'ix'
+>>> debt['first']
+50000
+>>> df
+features  year   state  pop   debt  debt2
+order
+first     2000    Ohio  1.5  50000  50000
+second    2001  Nevada  2.4  60000  60000
+>>> df2 = df
+>>> df2
+features  year   state  pop   debt  debt2
+order
+first     2000    Ohio  1.5  50000  50000
+second    2001  Nevada  2.4  60000  60000
+>>> df2['year'] = 2010
+>>> df2
+features  year   state  pop   debt  debt2
+order
+first     2010    Ohio  1.5  50000  50000
+second    2010  Nevada  2.4  60000  60000
+>>> df
+features  year   state  pop   debt  debt2
+order
+first     2010    Ohio  1.5  50000  50000
+second    2010  Nevada  2.4  60000  60000
+>>> df
+features  year   state  pop   debt  debt2
+order
+first     2010    Ohio  1.5  50000  50000
+second    2010  Nevada  2.4  60000  60000
+>>> df2
+features  year   state  pop   debt  debt2
+order
+first     2010    Ohio  1.5  50000  50000
+second    2010  Nevada  2.4  60000  60000
+>>> df = df2.copy()
+>>> df
+features  year   state  pop   debt  debt2
+order
+first     2010    Ohio  1.5  50000  50000
+second    2010  Nevada  2.4  60000  60000
+>>> df['year'] = [2000, 2001]
+>>> df
+features  year   state  pop   debt  debt2
+order
+first     2000    Ohio  1.5  50000  50000
+second    2001  Nevada  2.4  60000  60000
+>>> df2
+features  year   state  pop   debt  debt2
+order
+first     2010    Ohio  1.5  50000  50000
+second    2010  Nevada  2.4  60000  60000
+>>> df
+features  year   state  pop   debt  debt2
+order
+first     2000    Ohio  1.5  50000  50000
+second    2001  Nevada  2.4  60000  60000
+>>> df[[first', 'pop']] = 3.3
+  File "<stdin>", line 1
+    df[[first', 'pop']] = 3.3
+             ^
+SyntaxError: invalid syntax
+>>> df[['first', 'pop']] = 3.3
+>>> df
+features  year   state  pop   debt  debt2  first
+order
+first     2000    Ohio  3.3  50000  50000    3.3
+second    2001  Nevada  3.3  60000  60000    3.3
+>>> df
+features  year   state  pop   debt  debt2  first
+order
+first     2000    Ohio  3.3  50000  50000    3.3
+second    2001  Nevada  3.3  60000  60000    3.3
+>>> df[['second', 'pop']] = 3.1
+>>> df
+features  year   state  pop   debt  debt2  first  second
+order
+first     2000    Ohio  3.1  50000  50000    3.3     3.1
+second    2001  Nevada  3.1  60000  60000    3.3     3.1
+>>> df.loc[['second', 'pop']] = 2.0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 719, in __setitem__
+    indexer = self._get_setitem_indexer(key)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 666, in _get_setitem_indexer
+    return self._convert_to_indexer(key, axis=0, is_setter=True)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 1257, in _convert_to_indexer
+    return self._get_listlike_indexer(key, axis)[1]
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['pop'] not in index"
+>>> df.loc[['second', 'pop']] = 2.0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 719, in __setitem__
+    indexer = self._get_setitem_indexer(key)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 666, in _get_setitem_indexer
+    return self._convert_to_indexer(key, axis=0, is_setter=True)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 1257, in _convert_to_indexer
+    return self._get_listlike_indexer(key, axis)[1]
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 1314, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexing.py", line 1377, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['pop'] not in index"
+>>> df
+features  year   state  pop   debt  debt2  first  second
+order
+first     2000    Ohio  3.1  50000  50000    3.3     3.1
+second    2001  Nevada  3.1  60000  60000    3.3     3.1
+>>> df['pop']['first'] = 2.0
+<stdin>:1: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+>>> df
+features  year   state  pop   debt  debt2  first  second
+order
+first     2000    Ohio  2.0  50000  50000    3.3     3.1
+second    2001  Nevada  3.1  60000  60000    3.3     3.1
+>>> df['pop']
+order
+first     2.0
+second    3.1
+Name: pop, dtype: float64
+>>> df.at['first', 'pop'] = 2.5
+>>> df
+features  year   state  pop   debt  debt2  first  second
+order
+first     2000    Ohio  2.5  50000  50000    3.3     3.1
+second    2001  Nevada  3.1  60000  60000    3.3     3.1
+>>> df.loc['pop', 'second'] = 5.0
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  2.5  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  3.1  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.loc['second', 'pop'] = 5.5
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  2.5  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  5.5  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.iat[0, 2] = 3.0
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  3.0  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  5.5  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.at['first', 'pop'] = 3.3
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  5.5  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.drop(['second'])
+features    year state  pop     debt    debt2  first  second
+order
+first     2000.0  Ohio  3.3  50000.0  50000.0    3.3     3.1
+pop          NaN   NaN  NaN      NaN      NaN    NaN     5.0
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  5.5  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.drop(df['second'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\conda3\lib\site-packages\pandas\core\frame.py", line 4901, in drop
+    return super().drop(
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 4147, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 4182, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexes\base.py", line 6018, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: '[3.1 3.1 5.0] not found in axis'
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  5.5  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.drop('second')
+features    year state  pop     debt    debt2  first  second
+order
+first     2000.0  Ohio  3.3  50000.0  50000.0    3.3     3.1
+pop          NaN   NaN  NaN      NaN      NaN    NaN     5.0
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  5.5  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.drop(6)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "c:\python\conda3\lib\site-packages\pandas\core\frame.py", line 4901, in drop
+    return super().drop(
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 4147, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 4182, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "c:\python\conda3\lib\site-packages\pandas\core\indexes\base.py", line 6018, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+KeyError: '[6] not found in axis'
+>>> df.columns
+Index(['year', 'state', 'pop', 'debt', 'debt2', 'first', 'second'], dtype='object', name='features')
+>>> df.delete('second')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "c:\python\conda3\lib\site-packages\pandas\core\generic.py", line 5478, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'delete'
+>>> df.drop(columns=['first', 'second'])
+features    year   state  pop     debt    debt2
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0
+second    2001.0  Nevada  5.5  60000.0  60000.0
+pop          NaN     NaN  NaN      NaN      NaN
+>>> df
+features    year   state  pop     debt    debt2  first  second
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0    3.3     3.1
+second    2001.0  Nevada  5.5  60000.0  60000.0    3.3     3.1
+pop          NaN     NaN  NaN      NaN      NaN    NaN     5.0
+>>> df.drop(columns=['first', 'second'], inplace=True)
+>>> df
+features    year   state  pop     debt    debt2
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0
+second    2001.0  Nevada  5.5  60000.0  60000.0
+pop          NaN     NaN  NaN      NaN      NaN
+>>> df.drop(index=['pop'], inplace=True)
+>>> df
+features    year   state  pop     debt    debt2
+order
+first     2000.0    Ohio  3.3  50000.0  50000.0
+second    2001.0  Nevada  5.5  60000.0  60000.0
+>>>

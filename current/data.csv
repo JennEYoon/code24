@@ -1,0 +1,12 @@
+index, state, population, area  
+01, Virginia, 3.3, 50  
+02, Texas, 12.5, 300  
+03, Alaska, 2, 100  
+04, Vermont, 4.7, 12  
+05, Montana, 3.2, 21  
+
+### sample data
+# row index, US state name, population in millions in Dec 2021, land area in square miles  
+# made up data, as of Jan 7, 2023. Later fix with real data.  
+
+

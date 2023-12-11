@@ -2,7 +2,7 @@
 
 Saved boiler plate code for machine learning  
 
-  1. Data inport, Colob upload files/data  
+  1. Data import, Colob upload files/data  
 
 
 

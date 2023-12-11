@@ -21,7 +21,7 @@ This is implicit method. Fig, ax, and subplots are also created if they don't ex
 Pyplot allows you to ignore the state machine entirely, so you can write beautifully explicit code.  
 Call the * subplots * function and use the * figure * object and * axes * objects that are returned. 
 Notice "s" in subplots vs no s in plt.subplot(r, c, i)  
-fig, ax = plt.subplots() with s.  Don't need r, c for just 1 plot.  
+fig, ax = plt.subplots(r, c, *kwarg) with s.  Don't need r, c for just 1 plot.  
 """
 
 x = np.linspace(-2, 2, 200)

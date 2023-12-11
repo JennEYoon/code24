@@ -15,7 +15,12 @@ plt.show()
 
 ### subplots function, fig, ax explicit  
 
+"""
+Every time you call the plot function, pyplot just draws on the currently active subplot. 
+This is implicit method. Fig, ax, and subplots are also created if they don't exist.  
+Simply call the * subplots * function and use the figure object and the list of axes objects that are returned. No more magic! 
 
+"""
 
 ### pylab implicit figure, gcf(), plt.subplot(row, col, subplot index)   
 

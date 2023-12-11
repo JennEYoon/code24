@@ -18,10 +18,25 @@ plt.show()
 """
 Every time you call the plot function, pyplot just draws on the currently active subplot. 
 This is implicit method. Fig, ax, and subplots are also created if they don't exist.  
-Call the * subplots * function and use the * figure * object and the 
-list of * axes * objects that are returned. No more magic! 
-
+Pyplot allows you to ignore the state machine entirely, so you can write beautifully explicit code.  
+Call the * subplots * function and use the * figure * object and * axes * objects that are returned. 
+Notice "s" in subplots vs no s in plt.subplot(r, c, i)  
+fig, ax = plt.subplots() with s.  Don't need r, c for just 1 plot.  
 """
+
+x = np.linspace(-2, 2, 200)
+fig1, (ax_top, ax_bottom) = plt.subplots(2, 1, sharex=True)
+fig1.set_size_inches(10,5)
+line1, line2 = ax_top.plot(x, np.sin(3*x**2), "r-", x, np.cos(5*x**2), "b-")
+line3, = ax_bottom.plot(x, np.sin(3*x), "r-")
+ax_top.grid(True)
+
+fig2, ax = plt.subplots(1, 1)
+ax.plot(x, x**2)
+plt.show()
+
+
+
 
 ### pylab implicit figure, gcf(), plt.subplot(row, col, subplot index)   
 

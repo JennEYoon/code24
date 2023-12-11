@@ -18,7 +18,8 @@ plt.show()
 """
 Every time you call the plot function, pyplot just draws on the currently active subplot. 
 This is implicit method. Fig, ax, and subplots are also created if they don't exist.  
-Simply call the * subplots * function and use the figure object and the list of axes objects that are returned. No more magic! 
+Call the * subplots * function and use the * figure * object and the 
+list of * axes * objects that are returned. No more magic! 
 
 """
 

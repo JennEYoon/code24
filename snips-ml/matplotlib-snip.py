@@ -72,3 +72,25 @@ plt.subplot(2, 1, 2)  # 2 rows, *1* column, 2nd subplot = bottom
 # why is this not 3 for 3rd subplot?  But 2 for bottom out of 2 rows?  
 plt.plot(x, x**3)
 plt.show()
+
+# 3D Projection
+
+x = np.linspace(-5, 5, 50)
+y = np.linspace(-5, 5, 50)
+X, Y = np.meshgrid(x, y)
+R = np.sqrt(X**2 + Y**2)
+Z = np.sin(R)
+
+figure = plt.figure(1, figsize = (12, 4))
+subplot3d = plt.subplot(111, projection='3d')
+surface = subplot3d.plot_surface(X, Y, Z, rstride=1, cstride=1,
+                                 cmap=matplotlib.cm.coolwarm, linewidth=0.1)
+plt.show()
+
+# implicit methos, uses plt.subplot. how to convert it to ax = plt.subplots(1,1)?  
+
+
+
+
+
+

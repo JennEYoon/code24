@@ -1,4 +1,6 @@
 # matplotlib snip
+# Test run, Dec 11, 2023 03:13 AM EST  
+# by Jennifer E Yoon 
 
 import matplotlib.pyplot as plt
 
@@ -35,7 +37,22 @@ fig2, ax = plt.subplots(1, 1)
 ax.plot(x, x**2)
 plt.show()
 
+# Explicit method conversion  
+fig3, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5))  # 1 row, 2 cols, figsize width, height  
 
+ax1.plot(x, x*5, "g--")
+# plt.title("multiply function") # implicit, gets overwritten by 2nd title.  
+ax1.set_title("multiply function")
+ax1.set_xlabel("X axis, 1st fig")
+ax1.set_ylabel("Y = X * 5")
+
+ax2.plot(x, x**2, "r:")
+plt.title("square function") # implicit  
+plt.ylabel("Y = X squared") # implicit, still works!  
+# ax2.set_ylabel("Y = X^2")  ## works, explicit.  
+ax2.set_xlabel("X axis, 2nd fig")
+
+plt.show()
 
 
 ### pylab implicit figure, gcf(), plt.subplot(row, col, subplot index)   

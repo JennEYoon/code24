@@ -17,7 +17,8 @@ plt.show()
 
 
 
-### pylab implicit figure, gcf(), plt.subplot(row, col, index)   
+### pylab implicit figure, gcf(), plt.subplot(row, col, subplot index)   
+
 """
 Subplots
 A matplotlib figure may contain multiple subplots. 
@@ -41,4 +42,8 @@ plt.subplot(2, 2, 4)  # 2 rows, 2 columns, 4th subplot = bottom right
 plt.plot(x, x**4)
 plt.show()
 
-
+# It is easy to create subplots that span across multiple grid cells like so:
+plt.subplot(2, 2, 1)  # 2 rows, 2 columns, 1st subplot = top left
+plt.plot(x, x)
+plt.subplot(2, 2, 2)  # 2 rows, 2 columns, 2nd subplot = top right
+plt.plot(x, x**2)

@@ -47,3 +47,7 @@ plt.subplot(2, 2, 1)  # 2 rows, 2 columns, 1st subplot = top left
 plt.plot(x, x)
 plt.subplot(2, 2, 2)  # 2 rows, 2 columns, 2nd subplot = top right
 plt.plot(x, x**2)
+plt.subplot(2, 1, 2)  # 2 rows, *1* column, 2nd subplot = bottom
+# why is this not 3 for 3rd subplot?  But 2 for bottom out of 2 rows?  
+plt.plot(x, x**3)
+plt.show()

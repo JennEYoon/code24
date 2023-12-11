@@ -86,11 +86,17 @@ subplot3d = plt.subplot(111, projection='3d')
 surface = subplot3d.plot_surface(X, Y, Z, rstride=1, cstride=1,
                                  cmap=matplotlib.cm.coolwarm, linewidth=0.1)
 plt.show()
+### implicit method, uses plt.subplot. how to convert it to ax = plt.subplots(1,1)?  
 
-# implicit methos, uses plt.subplot. how to convert it to ax = plt.subplots(1,1)?  
+# Polar projection, also implicit method.  
 
+radius = 1
+theta = np.linspace(0, 2*np.pi*radius, 1000)
 
+plt.subplot(111, projection='polar')
+plt.plot(theta, np.sin(5*theta), "g-")
+plt.plot(theta, 0.5*np.cos(20*theta), "b-")
+plt.show()
 
-
-
+### maybe subplots also has "projection='polar'" argument.  
 

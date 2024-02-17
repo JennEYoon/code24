@@ -15,6 +15,8 @@ s7 = pd.Series(temperatures, name="Temperature")
 s7.plot()
 plt.show()
 
+temp_series = pd.Series(temperatures, dates)
+temp_series
 
 temp_series.plot(kind="bar")
 # plot temperature using hours.  

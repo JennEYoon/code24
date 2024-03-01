@@ -1,15 +1,15 @@
 # Pandas  notes   
 
-pd.merge(df1, df2)  
+df3 = pd.merge(df1, df2)  
 
 # save dataframe as image file  
 fig1 = plt.figure(1, figsize=(6, 4))  
 plt.plot(X, Y, 'ro')  # line plot, red dots marker   
-plt.ylim(2000, 2015)  # y axis range 
 
 fig2 = plt.figure(2, figsize=(4, 6))
 plt.bar(X, Y)  
+plt.ylim(2000, 2015)  # y axis range 
 
-fig1.savefig('dotsplot.png')
+fig1.savefig('dotplot.png')
 fig2.savefig('barplot.png')  
-
+df3.to_csv('employees.csv')

@@ -1,6 +1,14 @@
 # Pandas  notes   
 
 df3 = pd.merge(df1, df2)  
+X = df3['employee']  
+Y = df3['hire_date']  
+
+
+# alternate dot method
+# X = df3.employee  
+# Y = df3.hire_date  
+
 
 # save dataframe as image file  
 fig1 = plt.figure(1, figsize=(6, 4))  

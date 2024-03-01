@@ -1,15 +1,15 @@
-# Pandas  otes   
+# Pandas  notes   
 
 pd.merge(df1, df2)  
 
 # save dataframe as image file  
 fig1 = plt.figure(1, figsize=(6, 4))  
 plt.plot(X, Y, 'ro')  # line plot, red dots marker   
-plt.ylim('2004', '2015')  # y axis range  
+plt.ylim(2000, 2015)  # y axis range 
 
 fig2 = plt.figure(2, figsize=(4, 6))
 plt.bar(X, Y)  
 
-plt.savefig(fig1, 'lineplot.png')
-plt.savefig(fig2, 'barplot.pmg')  
+fig1.savefig('dotsplot.png')
+fig2.savefig('barplot.png')  
 

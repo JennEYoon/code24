@@ -9,6 +9,20 @@ Y = df3['hire_date']
 # X = df3.employee  
 # Y = df3.hire_date  
 
+"""
+Accessing Pandas column using squared brackets vs using a dot (like an attribute
+import pandas
+d = {'col1': 2, 'col2': 2.5}
+df = pandas.DataFrame(data=d, index=[0])
+print(df['col2'])
+print(df.col2)
+Both methods can be used to index on a column and yield the same result, so is there any difference between them
+
+Short answer for differences:
+
+[] indexing (squared brackets access) has the full functionality to operate on DataFrame column data.
+While attribute access (dot access) is mainly for convenience to access existing DataFrame column data, but occasionally has its limitations (e.g. special column names, creating a new column).
+"""
 
 # save dataframe as image file  
 fig1 = plt.figure(1, figsize=(6, 4))  

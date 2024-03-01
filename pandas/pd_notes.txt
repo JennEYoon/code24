@@ -1,0 +1,6 @@
+# Pandas  otes   
+
+pd.merge(df1, df2)  
+
+# save dataframe as image file  
+fig1 = plt.figure(1, figsize=(6, 4))  

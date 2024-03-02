@@ -24,7 +24,7 @@ Short answer for differences:
 While attribute access (dot access) is mainly for convenience to access existing DataFrame column data, but occasionally has its limitations (e.g. special column names, creating a new column).
 """
 
-# save dataframe as image file  
+# save dataframe plots as image files  
 fig1 = plt.figure(1, figsize=(6, 4))  
 plt.plot(X, Y, 'ro')  # line plot, red dots marker   
 
@@ -35,3 +35,17 @@ plt.ylim(2000, 2015)  # y axis range
 fig1.savefig('dotplot.png')
 fig2.savefig('barplot.png')  
 df3.to_csv('employees.csv')
+
+# pd to Excel  
+data = {'employees':['Mary', 'Hank', 'Jennifer', 'Joo-In'], 'hire_date':['2000', '1998', '1992', '2012'], 'salary':[102, 115, 220, 58]}
+df = pd.DataFrame(data, index='employees', columns=['hire_date', 'salary'])
+
+from Pandas import ExcelWriter  
+with ExcelWriter('filename.xlsx') as file:
+    df.to_excel(file, sheet_name='Sheet_name')
+
+# read back from Excel  
+df2 = pd.read_excel('filename.xlsx', sheet_name='Sheet_name', index_col=0)  
+
+
+

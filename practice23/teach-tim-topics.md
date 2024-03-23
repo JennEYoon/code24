@@ -1,5 +1,11 @@
 # Python mastery, teach with tim.  
 
+> ## My own topics:
+>  * URLlib, Pathlib, Path, OS, tar and untar, download data from s3 bucket, create folder locally
+>  * glob and walk, iterating over files, read into notebook memory.
+>  * API Planet Labs, API EIA.Gov -- download data into excel files, csv files, images to local path  
+
+
 List of Topics 📘  
 
 Beginner
@@ -13,32 +19,32 @@ Beginner
 - Functions
 - Mutable vs Immutable
 - Common Methods
-- File IO
+- File IO  
 
 Intermediate
 - Object Oriented Programming
 - Data Structures  <<  Complexity, big O, Bfs Dfs
 - Comprehensions 
-- Lambda Functions
-- Map, Filter <<
+- Lambda Functions << more practice  
+- Map, Filter  << more practice  
 - Collections
 - *args & **kwargs
 - Inheritance
-- Dunder Methods  << learn more  
+- Dunder Methods   
 - PIP
 - Environments
 - Modules
-- Async IO <<
+- Async IO 
 
 Advanced
-- Decorators <<
-- Generators <<
+- Decorators 
+- Generators << do more
 - Context Managers
-- Metaclasses <<
-- Concurrency <<  
-- Parallelism <<   multi-threading, multi-core.  
-- Testing   <<
-- Packages  <<
-- Cython    <<  also Numba.  
+- Metaclasses 
+- Concurrency   
+- Parallelism  
+- Testing   << do more 
+- Packages 
+- Cython    
 
 

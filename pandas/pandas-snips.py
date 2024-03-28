@@ -9,5 +9,5 @@ df = pd.read_csv('file1.csv')
 print(df.head())
 
 df.to_csv('file2.csv')
-df.to_excel('file.xls', sheetname='Sheet1')  
+df.to_excel('file.xlsx', sheet_name='Sheet1')  
 
